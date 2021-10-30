@@ -86,7 +86,7 @@ cursor: pointer;
 .buttons button.active,
 .buttons button.stopActivi{
 
-    cursor: not-allowed;
+    cursor: default;
     opacity: 0.8;
 
 }
