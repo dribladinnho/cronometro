@@ -1,0 +1,92 @@
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #7d2ae8;
+
+}
+
+.wrapper{
+
+user-select: none;
+
+}
+
+.wrapper .tempo{
+
+height: 100px;
+
+background: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 6px;
+box-shadow: 8px 8px 10px rgba(0, 0, 0, 09);
+padding: 0 10px;
+
+}
+
+.wrapper .tempo span{
+
+width: 80px;
+text-align: center;
+font-size: 45px;
+font-weight: 300;
+
+}
+
+.tempo span.coluna{
+
+    width: 20px;
+
+}
+
+.tempo span.segundo{
+
+ color: #7d2ae8;
+  
+}
+
+.wrapper .buttons{
+
+text-align: center;
+margin-top: 20px;
+
+}
+
+.buttons button{
+
+padding: 3px 10px;
+outline: none;
+border:none;
+color: #821891;
+background: #fff;
+font-size: 15px;
+font-weight: 500;
+border-radius: 4px;
+cursor: pointer;
+
+}
+
+.buttons button.active,
+.buttons button.stopActivi{
+
+    cursor: not-allowed;
+    opacity: 0.8;
+
+}
